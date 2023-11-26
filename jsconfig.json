@@ -1,0 +1,12 @@
+//points intelisence to the src folder where our frontend will live
+
+{"include":[
+    "./src/**/*"
+],
+"compilerOptions": {
+    "baseUrl": ".",
+    "paths":{
+        "@/*": ["./src/*"]
+    }
+}
+}
